@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Source Sans Pro", sans-serif;
+
+  font-size: 30px;
+  line-height: 40px;
+  color: #323232;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  background: #fff;
+}
+
+div,
+ul,
+li,
+p,
+img,
+form,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  outline: ;
+}
+
+img {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+#container {
+  width: 640px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.clearall {
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  height: 1px;
+}
+
+.position {
+  position: relative;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+}
+
+.strip {
+  background: #0c4066;
+  margin: 20px 0 0 0;
+}
+
+.strip-txt1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 6px 0 0 0;
+}
+
+.strip-txt2 {
+  font-size: 23px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto 0 auto;
+  padding: 2px 0 10px 0;
+}
+
+.strip-txt2 b {
+  font-weight: 600;
+}
+
+.strip-txt3 {
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 10px 70px 10px 70px;
+}
+
+.strip-txt3 b {
+  font-weight: 600;
+}
+
+.up-txt1 {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
+  margin: 30px auto 0 auto;
+  width: 491px;
+  padding: 6px 0 0 0;
+}
+
+.up-txt1 span {
+  font-size: 40px;
+  color: #0c4066;
+  text-transform: uppercase;
+}
+
+.up-txt2 {
+  font-size: 33px;
+  color: #0c4066;
+  line-height: 31px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 0;
+}
+
+.res {
+  margin: 0 9px -15px 9px;
+}
+
+.price-box {
+  background: #0c4066;
+  height: 207px;
+  width: 508px;
+  float: right;
+  margin: 60px 0 0 0;
+}
+
+.price-box-txt1 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 900;
+  color: #ffea00;
+  margin: 0 auto 0 auto;
+  padding: 21px 0px 0 0px;
+}
+
+.price-box-txt2 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  margin: 10px auto 0 auto;
+  padding: 0 0 0 0;
+}
+
+.price-box-txt3 {
+  font-size: 45px;
+  text-align: center;
+  line-height: 33px;
+  font-weight: 900;
+  color: #ffea00;
+  margin: 20px auto 0 auto;
+  padding: 0 0 0 0;
+}
+
+.arrow-left {
+  margin: 0 10px 0 0;
+}
+
+.arrow-right {
+  margin: 0 0 0 15px;
+}
+
+.up-product {
+  position: absolute;
+  top: 152px;
+  left: 0;
+}
+
+.bnt-sec {
+  margin: 0 0 0 176px;
+}
+
+.ord-btn {
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+.thanks-txt {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #9d9d9d;
+  margin: 5px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.thanks-txt a,
+.thanks-txt a:hover {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+
+.cut-icon {
+  margin: 4px 0 -2px 0;
+}
+
+.up-txt3 {
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #1b1b1b;
+  margin: 0 auto;
+  padding: 19px 10px 0 10px;
+}
+
+ul.up-list {
+  margin: 31px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+ul.up-list li {
+  border-bottom: 1px dashed #000;
+  margin: 30px auto 0 auto;
+  padding: 0 0 20px 0;
+  width: 420px;
+}
+
+ul.up-list li:nth-child(3) {
+  border-bottom: none;
+}
+
+.up-icons {
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+.up-list-txt1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #0c4066;
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 0;
+}
+
+.up-list-txt2 {
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #1b1b1b;
+  margin: 0 auto;
+  padding: 5px 3px 0 3px;
+}
+
+.footer {
+  border-top: 1px solid #a1a1a1;
+  margin: 40px auto 40px auto;
+  padding: 0;
+}
+
+.ftr-txt1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto;
+  height: 410px;
+  padding: 15px 15px 0 15px;
+}
+
+.ftr-txt2 {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7e7e7e;
+  margin: 0 auto;
+  padding: 20px 15px 0 15px;
+}
+
+.ftr-txt2 a,
+.ftr-txt2 a:hover {
+  text-decoration: none;
+  color: #7e7e7e;
+}

@@ -1,0 +1,31 @@
+{
+   "package": [
+       {   "id" : "0", 
+           "product_name" : "6 Bottle",
+           "price": 97,
+           "offer_price": 32.83,
+           "list_price": 582,
+           "price_today": 197,
+           "you_save" : 385,
+           "offer_percent": 66
+       },
+       {   "id" : "1", 
+           "product_name" : "3 Bottle",
+           "price": 97,
+           "offer_price": 39.99,
+           "list_price": 291,
+           "price_today": 119.99,
+           "you_save" : 171,
+           "offer_percent": 58
+       },
+       {   "id" : "2",
+           "product_name" : "1 Bottle",
+           "price": 97,
+           "offer_price": 47,
+           "list_price": 97,
+           "price_today": 47,
+           "you_save" : 50,
+           "offer_percent": 51
+       }
+   ]
+}

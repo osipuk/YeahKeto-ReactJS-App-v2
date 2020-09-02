@@ -1,0 +1,590 @@
+/* --- mob sprite sheet 1 --- */
+
+.sprite1 {
+  background-image: url(../../assets/sprites/mob-spritesheet1.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-arrow-left {
+  width: 77px;
+  height: 33px;
+  background-position: -5px -5px;
+}
+
+.sprite-arrow-right {
+  width: 81px;
+  height: 33px;
+  background-position: -92px -5px;
+}
+
+.sprite-arw-left {
+  width: 29px;
+  height: 97px;
+  background-position: -183px -5px;
+}
+
+.sprite-arw-right {
+  width: 29px;
+  height: 97px;
+  background-position: -222px -5px;
+}
+
+.sprite-as-seen {
+  width: 639px;
+  height: 151px;
+  background-position: -261px -5px;
+}
+
+.sprite-as-seen-418313 {
+  width: 639px;
+  height: 151px;
+  background-position: -261px -5px;
+}
+
+.sprite-as-seen-418314 {
+  width: 639px;
+  height: 151px;
+  background-position: -5px -776px;
+}
+
+.sprite-as-seen-revcbd {
+  width: 639px;
+  height: 151px;
+
+  background-image: url(/static/assets/images/as-seen-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+.sprite-card-discover {
+  width: 65px;
+  height: 37px;
+  background-position: -910px -5px;
+}
+
+.sprite-card-mastercard {
+  width: 59px;
+  height: 37px;
+  background-position: -5px -52px;
+}
+
+.sprite-card-visa {
+  width: 61px;
+  height: 38px;
+  background-position: -74px -52px;
+}
+
+.sprite-cards {
+  width: 296px;
+  height: 40px;
+  background-position: -5px -166px;
+}
+
+.sprite-ck-top {
+  width: 639px;
+  height: 89px;
+  background-position: -311px -166px;
+}
+
+.sprite-cnn {
+  width: 34px;
+  height: 16px;
+  background-position: -910px -52px;
+  display: inline-block;
+}
+
+.sprite-con-pro1 {
+  width: 239px;
+  height: 224px;
+  background-position: -5px -265px;
+}
+
+.sprite-con-pro3 {
+  width: 239px;
+  height: 224px;
+  background-position: -254px -265px;
+}
+
+.sprite-con-pro5 {
+  width: 239px;
+  height: 224px;
+  background-position: -503px -265px;
+}
+
+.sprite-conf-btn {
+  width: 441px;
+  height: 87px;
+  background-position: -5px -499px;
+}
+
+.sprite-cut-icon {
+  width: 15px;
+  height: 15px;
+  background-position: -985px -5px;
+}
+
+.sprite-cvv {
+  width: 402px;
+  height: 69px;
+  background-position: -456px -499px;
+}
+
+.sprite-cvv2-location {
+  width: 276px;
+  height: 183px;
+  background-position: -456px -578px;
+}
+
+.sprite-doc2 {
+  width: 250px;
+  height: 245px;
+  background-position: -742px -578px;
+}
+
+.sprite-s2-img {
+  width: 639px;
+  height: 321px;
+  background-position: -1010px -5px;
+}
+
+.sprite-s3-img {
+  width: 639px;
+  height: 329px;
+  background-position: -1002px -336px;
+}
+
+/* --- mob sprite sheet 2 --- */
+
+.sprite2 {
+  background-image: url(../../assets/sprites/mob-spritesheet2.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-box1 {
+  width: 549px;
+  height: 437px;
+  background-position: -5px -5px;
+}
+
+.sprite-box2 {
+  width: 549px;
+  height: 437px;
+  background-position: -564px -5px;
+}
+
+.sprite-box3 {
+  width: 549px;
+  height: 437px;
+  background-position: -1123px -5px;
+}
+
+.sprite-box4 {
+  width: 549px;
+  height: 437px;
+  background-position: -5px -452px;
+}
+
+.sprite-box5 {
+  width: 549px;
+  height: 437px;
+  background-position: -564px -452px;
+}
+
+.sprite-box6 {
+  width: 549px;
+  height: 437px;
+  background-position: -1123px -452px;
+}
+
+.sprite-s5-logos {
+  width: 639px;
+  height: 333px;
+  background-position: -5px -899px;
+}
+
+.sprite-sec1 {
+  width: 639px;
+  height: 900px;
+  background-position: -654px -899px;
+}
+
+.sprite-sec7 {
+  position: relative;
+  width: 640px;
+  height: 745px;
+  background-position: -1682px -5px;
+}
+
+.sprite-t-box {
+  width: 639px;
+  height: 1010px;
+  background-position: -1682px -760px;
+}
+
+/* --- mob sprite sheet 3 --- */
+
+.sprite3 {
+  background-image: url(../../assets/sprites/mob-spritesheet3.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite3-variation317683-418326 {
+  height: 235px;
+  width: 100%;
+  background-position: -10px -1770px;
+}
+
+.sprite3.sprite3-414126 {
+  background-position: -4px -1510px;
+  height: 216px;
+}
+
+.sprite3.sprite3-413419 {
+  background-position: -654px -1457px;
+}
+
+.sprite3.sprite3-413420 {
+  background-position: -654px -1560px;
+}
+
+.sprite3.sprite-416545 {
+  background-position: -654px -1217px;
+}
+
+.sprite3.sprite-416546 {
+  background-position: -654px -1792px;
+}
+
+.sprite3.sprite-416547 {
+  background-position: -654px -1668px;
+}
+
+.sprite3.sprite3-false {
+  background-position: -654px -1560px !important;
+}
+
+.sprite-logo {
+  width: 206px;
+  height: 66px;
+  background-position: -5px -5px;
+}
+
+.sprite-loogs {
+  width: 420px;
+  height: 65px;
+  background-position: -221px -5px;
+}
+
+.sprite-ord-btn {
+  width: 370px;
+  height: 71px;
+  background-position: -906px -5px;
+}
+
+.sprite-order-btn {
+  width: 410px;
+  height: 91px;
+  background-position: -5px -86px;
+}
+
+.sprite-post {
+  width: 639px;
+  height: 75px;
+  background-position: -5px -280px;
+}
+
+.sprite-product-box1 {
+  width: 349px;
+  height: 214px;
+  background-position: -906px -86px;
+}
+
+.sprite-product-box2 {
+  width: 349px;
+  height: 214px;
+  background-position: -654px -310px;
+}
+
+.sprite-product-box3 {
+  width: 349px;
+  height: 214px;
+  background-position: -1013px -310px;
+}
+
+.sprite-rd-strk {
+  width: 57px;
+  height: 10px;
+  background-position: -1286px -5px;
+}
+
+.sprite-rx {
+  width: 94px;
+  height: 94px;
+  background-position: -1286px -25px;
+}
+
+.sprite-s1-bottle {
+  width: 268px;
+  height: 419px;
+  background-position: -5px -534px;
+}
+
+.sprite-s1-hd {
+  width: 473px;
+  height: 150px;
+  background-position: -283px -534px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.sprite-s1-logo {
+  width: 452px;
+  height: 77px;
+  background-position: -766px -534px;
+}
+
+.sprite-s1-tick {
+  width: 25px;
+  height: 24px;
+  background-position: -425px -129px;
+  display: inline-block;
+}
+
+.sprite-s10-hd {
+  width: 446px;
+  height: 175px;
+  background-position: -766px -621px;
+}
+
+.sprite-s2-bottom-img {
+  width: 639px;
+  height: 70px;
+  background-position: -283px -806px;
+}
+
+.sprite-s2-hd-line {
+  width: 519px;
+  height: 24px;
+  background-position: -283px -886px;
+}
+
+.sprite-s2-line {
+  width: 141px;
+  height: 10px;
+  background-position: -425px -86px;
+}
+
+.sprite-s2limg1 {
+  width: 121px;
+  height: 141px;
+  background-position: -460px -129px;
+}
+
+.sprite-s2limg2 {
+  width: 121px;
+  height: 141px;
+  background-position: -1265px -129px;
+}
+
+.sprite-s2limg3 {
+  width: 121px;
+  height: 141px;
+  background-position: -1228px -534px;
+}
+
+.sprite-s2limg4 {
+  width: 121px;
+  height: 141px;
+  background-position: -1222px -685px;
+}
+
+.sprite-s3-icon1 {
+  width: 639px;
+  height: 127px;
+  background-position: -283px -920px;
+}
+
+.sprite-s3-icon2 {
+  width: 639px;
+  height: 126px;
+  background-position: -5px -1057px;
+}
+
+.sprite-s3-icon3 {
+  width: 639px;
+  height: 126px;
+  background-position: -654px -1057px;
+}
+
+.sprite-s3-icon4 {
+  width: 639px;
+  height: 126px;
+  background-position: -5px -1193px;
+}
+
+.sprite-s4-icon1 {
+  width: 46px;
+  height: 61px;
+  background-position: -591px -129px;
+  display: inline-block;
+}
+
+.sprite-s4-icon2 {
+  width: 68px;
+  height: 66px;
+  background-position: -932px -836px;
+  display: inline-block;
+}
+
+.sprite-s4-icon3 {
+  width: 48px;
+  height: 47px;
+  background-position: -1359px -534px;
+  display: inline-block;
+}
+
+.sprite-s4-icon4 {
+  width: 115px;
+  height: 104px;
+  background-position: -1010px -836px;
+}
+
+.sprite-s4-icon5 {
+  width: 115px;
+  height: 104px;
+  background-position: -1135px -836px;
+}
+
+.sprite-s4-icon6 {
+  width: 115px;
+  height: 104px;
+  background-position: -1260px -836px;
+}
+
+.sprite-s5-line {
+  width: 640px;
+  height: 14px;
+  background-position: -654px -1193px;
+  margin: 30px 0 0 0;
+}
+
+.sprite-s7-logo {
+  width: 442px;
+  height: 79px;
+  background-position: -932px -950px;
+  margin: 13px 0 0 186px;
+  display: inline-block;
+}
+
+.sprite-s7-logo-416840,
+.sprite-s1-logo-418317 {
+  width: 442px;
+  height: 79px;
+  background-position: -932px -950px;
+  margin: 13px 0 0 186px;
+  display: inline-block;
+}
+
+.sprite-s7-logo-416841,
+.sprite-s1-logo-418318 {
+  width: 442px;
+  height: 79px;
+  background-position: -1184px -1549px;
+  margin: 13px 0 0 186px;
+  display: inline-block;
+}
+
+.sprite-s7-photos {
+  width: 246px;
+  height: 363px;
+  background-position: -1396px -5px;
+}
+
+.sprite-select-btn {
+  width: 249px;
+  height: 57px;
+  background-position: -5px -378px;
+}
+
+.sprite-ship-btn {
+  width: 441px;
+  height: 87px;
+  background-position: -654px -1217px;
+  margin-top: 20px;
+}
+
+.sprite-ship-icon {
+  width: 154px;
+  height: 25px;
+  background-position: -264px -378px;
+}
+
+.sprite-stars {
+  width: 177px;
+  height: 30px;
+  background-position: -463px -378px;
+}
+
+.sprite-strip-bg {
+  width: 640px;
+  height: 125px;
+  background-position: -654px -1314px;
+}
+
+.sprite-t-img1 {
+  width: 212px;
+  height: 212px;
+  background-position: -1417px -378px;
+}
+
+.sprite-t-img2 {
+  width: 212px;
+  height: 212px;
+  background-position: -1359px -600px;
+}
+
+.sprite-up-bottom-line {
+  width: 639px;
+  height: 41px;
+  background-position: -5px -1449px;
+}
+
+.sprite-up-icon1 {
+  width: 79px;
+  height: 80px;
+  background-position: -1581px -600px;
+}
+
+.sprite-up-icon2 {
+  width: 79px;
+  height: 80px;
+  background-position: -1581px -690px;
+}
+
+.sprite-up-icon3 {
+  width: 79px;
+  height: 80px;
+  background-position: -1581px -780px;
+}
+
+.sprite-up-product {
+  width: 179px;
+  height: 346px;
+  background-position: -1385px -822px;
+}
+
+.sprite-up-product2 {
+  width: 179px;
+  height: 346px;
+  background-position: -1304px -1178px;
+}
+
+.sprite-vdo-arw {
+  width: 113px;
+  height: 174px;
+  background-position: -1493px -1178px;
+}

@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /get-lead/
+Disallow: /create-lead/
+Disallow: /create-order/
+Disallow: /upsell
+Disallow: /state/
+Disallow: /ping
+Disallow: /add-contact
+Disallow: /update-contact
+Disallow: /add-leadoutpost
+Disallow: /run-migrator
+Disallow: /testSession
+Disallow: /testError
+Disallow: /session
+Disallow: /session/
+Disallow: /send-email
+Allow: /public/promo/*
+##

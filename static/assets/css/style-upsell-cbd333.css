@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: left !important;
+}
+
+.container {
+  max-width: 830px;
+}
+.body_section {
+  background: url(/assets/images/upsell.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 45px 0;
+}
+.back_white {
+  border-radius: 5px;
+  background: #fff;
+}
+.bred_out {
+  display: table;
+  width: 90%;
+  margin: 30px auto;
+  position: relative;
+}
+.bred_out:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #03550f;
+  top: 12px;
+  border-radius: 5px;
+}
+
+.bred_out .number {
+  display: table-cell;
+  width: 33.33%;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+.number_inner {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  border: 2px solid #19c531;
+  line-height: 24px;
+  border-radius: 50%;
+  font-weight: bold;
+  background: #03550f;
+  display: table;
+  margin: auto;
+  position: relative;
+}
+.number.active .number_inner {
+  color: #03550f;
+  background: #fff;
+}
+.back_grad_1 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a7f1a+26,055e12+99 */
+  background: rgb(10, 127, 26); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(10, 127, 26, 1) 26%,
+    rgba(5, 94, 18, 1) 99%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(10, 127, 26, 1) 26%,
+    rgba(5, 94, 18, 1) 99%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 127, 26, 1) 26%,
+    rgba(5, 94, 18, 1) 99%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a7f1a', endColorstr='#055e12',GradientType=0 ); /* IE6-9 */
+  padding: 20px;
+}
+.fs_36 {
+  font-size: 36px;
+}
+.fs_30 {
+  font-size: 30px;
+}
+.fs_28 {
+  font-size: 28px;
+}
+.fs_26 {
+  font-size: 26px;
+}
+.fs_24 {
+  font-size: 24px;
+}
+.fs_22 {
+  font-size: 22px;
+}
+.fs_20 {
+  font-size: 20px;
+}
+.fs_18 {
+  font-size: 18px;
+}
+.fs_16 {
+  font-size: 16px;
+}
+.fs_14 {
+  font-size: 14px;
+}
+.fs_12 {
+  font-size: 12px;
+}
+.font_bold,
+.font_700 {
+  font-weight: bold;
+}
+.font_300 {
+  font-weight: 300;
+}
+.font_400 {
+  font-weight: 400;
+}
+.font_500 {
+  font-weight: 500;
+}
+.font_600 {
+  font-weight: 600;
+}
+.font_800 {
+  font-weight: 800;
+}
+.font_900 {
+  font-weight: 900;
+}
+
+.p_t_0 {
+  padding-top: 0px !important;
+}
+.p_t_20 {
+  padding-top: 20px;
+}
+.p_t_10 {
+  padding-top: 10px;
+}
+.p_b_20 {
+  padding-bottom: 20px;
+}
+.hed_1 {
+  font-weight: 900;
+}
+
+.color_red {
+  color: #c30101;
+}
+
+.color_green {
+  color: #045911;
+}
+
+.border_bot {
+  border-bottom: 4px solid #045911;
+}
+.offer_bottle_2 {
+  max-width: 275px;
+  margin: auto;
+}
+.clolor_white {
+  color: #fff;
+}
+.hed_2 {
+  margin-bottom: 0;
+}
+.offer_bottle {
+}
+.hed_3 {
+  margin-bottom: 0;
+  line-height: 1;
+}
+.p-10 {
+  padding: 10px;
+}
+.widget_1 {
+  box-shadow: 0px 0px 3px 0px #ccc;
+  margin-bottom: 30px;
+}
+.desk_right {
+  text-align: right;
+}
+.desk_left {
+  text-align: left;
+}
+.back_grad_2 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdd82c+0,f2a505+100 */
+  background: rgb(253, 216, 44); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(253, 216, 44, 1) 0%,
+    rgba(242, 165, 5, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(253, 216, 44, 1) 0%,
+    rgba(242, 165, 5, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 216, 44, 1) 0%,
+    rgba(242, 165, 5, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdd82c', endColorstr='#f2a505',GradientType=0 ); /* IE6-9 */
+  padding: 10px;
+}
+.back_grad_2:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2a505+0,fdd82c+100 */
+  background: rgb(242, 165, 5); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(242, 165, 5, 1) 0%,
+    rgba(253, 216, 44, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(242, 165, 5, 1) 0%,
+    rgba(253, 216, 44, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(242, 165, 5, 1) 0%,
+    rgba(253, 216, 44, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a505', endColorstr='#fdd82c',GradientType=0 ); /* IE6-9 */
+}
+
+.upgrad_order,
+.upgrad_order:hover,
+.upgrad_order:active {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+.display_block {
+  display: block;
+}
+.display_table {
+  display: table;
+}
+.display_inline_block {
+  display: inline-block;
+}
+
+.footer-sec {
+  padding: 40px 0;
+  background: #010602;
+  color: #fff;
+}
+.footer-sec .fs_12 {
+  font-weight: 500;
+}
+.footer-sec a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.right_text {
+  text-align: right;
+}
+.shipping_info {
+  display: none;
+}
+.div_frm_div .col-6 {
+  float: left;
+  padding-left: 0;
+}
+
+.btn_curve {
+  border: 1px solid #c30101;
+  border-radius: 4px;
+}
+.header {
+  padding: 10px 0;
+}
+@media screen and (max-width: 767px) {
+  .footer-sec,
+  .right_text {
+    text-align: center;
+  }
+  .mob_max_400,
+  .form_body,
+  .usps_sec {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 575px) {
+  .logo {
+    text-align: center;
+    display: table;
+    margin: auto;
+  }
+  .callsec {
+    text-align: center;
+  }
+  .content_hed {
+    font-size: 18px;
+  }
+  .desk_right,
+  .desk_left {
+    text-align: center;
+    padding: 10px;
+  }
+}

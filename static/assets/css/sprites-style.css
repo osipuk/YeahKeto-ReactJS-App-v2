@@ -1,0 +1,635 @@
+/*---sprite css---*/
+
+.sprite1 {
+  background-image: url(../sprites/spritesheet1.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-arrow-left {
+  width: 77px;
+  height: 33px;
+  background-position: -5px -5px;
+}
+
+.sprite-arrow-right {
+  width: 77px;
+  height: 33px;
+  background-position: -92px -5px;
+}
+
+.sprite-card-discover {
+  width: 65px;
+  height: 37px;
+  background-position: -179px -5px;
+}
+
+.sprite-card-mastercard {
+  width: 59px;
+  height: 37px;
+  background-position: -254px -5px;
+}
+
+.sprite-card-visa {
+  width: 61px;
+  height: 38px;
+  background-position: -323px -5px;
+}
+
+.sprite-cards {
+  width: 210px;
+  height: 40px;
+  background-position: -5px -53px;
+}
+
+.sprite-check {
+  width: 17px;
+  height: 17px;
+  background-position: -394px -5px;
+}
+
+.sprite-checked {
+  width: 17px;
+  height: 17px;
+  background-position: -421px -5px;
+}
+
+.sprite-chk-frmbtm {
+  width: 347px;
+  height: 67px;
+  background-position: -5px -103px;
+}
+
+.sprite-chktop {
+  width: 329px;
+  height: 48px;
+  background-position: -5px -378px;
+}
+
+.sprite-ck-logo {
+  width: 206px;
+  height: 66px;
+  background-position: -448px -5px;
+}
+
+.sprite-ck-seal {
+  width: 205px;
+  height: 72px;
+  background-position: -362px -81px;
+}
+
+.sprite-cnn {
+  width: 34px;
+  height: 22px;
+  background-position: -664px -5px;
+}
+
+.sprite-cut-icon {
+  width: 15px;
+  height: 15px;
+  background-position: -664px -31px;
+}
+
+.sprite2 {
+  background-image: url(../sprites/spritesheet2.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-btl {
+  width: 176px;
+  height: 222px;
+  background-position: -5px -5px;
+}
+
+.sprite-cvv2-location {
+  width: 415px;
+  height: 120px;
+  background-position: -191px -5px;
+}
+
+.sprite-eye {
+  width: 22px;
+  height: 13px;
+  background-position: -191px -135px;
+}
+
+.sprite-fancybox_loading {
+  width: 24px;
+  height: 24px;
+  background-position: -223px -135px;
+}
+
+.sprite-fancybox_overlay {
+  width: 10px;
+  height: 10px;
+  background-position: -257px -135px;
+}
+
+.sprite-fancybox_sprite {
+  width: 44px;
+  height: 152px;
+  background-position: -277px -135px;
+}
+
+.sprite-flag {
+  width: 41px;
+  height: 32px;
+  background-position: -331px -135px;
+  float: left;
+  display: inline-block;
+}
+
+.sprite-frmhdr {
+  width: 308px;
+  height: 78px;
+  background-position: -5px -297px;
+}
+
+.sprite-logo {
+  width: 206px;
+  height: 66px;
+  background-position: -382px -135px;
+}
+
+.sprite-moneyback {
+  width: 120px;
+  height: 111px;
+  background-position: -331px -211px;
+}
+
+.sprite-ord-btn {
+  width: 370px;
+  height: 71px;
+  background-position: -5px -385px;
+}
+
+.sprite-pkg1-img {
+  width: 370px;
+  height: 198px;
+  background-position: -616px -5px;
+}
+
+.sprite-pkg2-img {
+  width: 300px;
+  height: 198px;
+  background-position: -461px -213px;
+}
+
+.sprite-s1asseen {
+  width: 412px;
+  height: 60px;
+  background-position: -385px -421px;
+}
+
+.sprite-s1asseen-revcbd {
+  width: 412px;
+  height: 60px;
+
+  background-image: url(../images/as-seen-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+.sprite-s1bullet {
+  /*width: 21px;*/
+  /*height: 20px;*/
+  background-position: -771px -213px;
+}
+
+.sprite3 {
+  background-image: url(../sprites/spritesheet3.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-pkg3-img {
+  width: 107px;
+  height: 198px;
+  background-position: -5px -5px;
+}
+
+.sprite-red-cut {
+  width: 57px;
+  height: 10px;
+  background-position: -122px -5px;
+}
+
+.sprite-rx {
+  width: 63px;
+  height: 63px;
+  background-position: -189px -5px;
+}
+
+.sprite-s1arrow {
+  width: 614px;
+  height: 89px;
+  background-position: -122px -78px;
+}
+
+.sprite-s1bottle {
+  width: 392px;
+  height: 484px;
+  background-position: -122px -177px;
+}
+
+.sprite-s1hd {
+  width: 508px;
+  height: 160px;
+  background-position: -746px -5px;
+}
+
+.sprite-s1logos {
+  width: 284px;
+  height: 45px;
+  background-position: -746px -175px;
+}
+
+.sprite-s1seal {
+  width: 205px;
+  height: 72px;
+  background-position: -1040px -175px;
+}
+
+.sprite-s1seal-true,
+.sprite-s1seal-418315 {
+  width: 205px;
+  height: 72px;
+  background-position: -1040px -175px;
+}
+
+.sprite-s1seal-false,
+.sprite-s1seal-418316 {
+  width: 205px;
+  height: 72px;
+  background-position: -1042px -489px;
+}
+
+.sprite-s2bottle {
+  width: 467px;
+  height: 475px;
+  background-position: -524px -230px;
+}
+
+.sprite-s2bullet {
+  width: 11px;
+  height: 12px;
+  background-position: -715px -5px;
+}
+
+.sprite-s2hd {
+  width: 603px;
+  height: 14px;
+  background-position: -5px -715px;
+}
+
+.sprite4 {
+  background-image: url(../sprites/spritesheet4.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite4-variation317682-418324 {
+  height: 240px;
+  width: 960px;
+  background-position: -510px -880px;
+}
+
+.sprite-s2limg1 {
+  width: 121px;
+  height: 141px;
+  background-position: -5px -5px;
+}
+
+.sprite-s2limg2 {
+  width: 121px;
+  height: 141px;
+  background-position: -136px -5px;
+}
+
+.sprite-s2limg3 {
+  width: 121px;
+  height: 141px;
+  background-position: -267px -5px;
+}
+
+.sprite-s2limg4 {
+  width: 121px;
+  height: 141px;
+  background-position: -398px -5px;
+}
+
+.sprite-s2line {
+  width: 132px;
+  height: 5px;
+  background-position: -529px -5px;
+}
+
+.sprite-s3img1 {
+  width: 141px;
+  height: 87px;
+  background-position: -671px -5px;
+}
+
+.sprite-s3img2 {
+  width: 141px;
+  height: 87px;
+  background-position: -822px -5px;
+}
+
+.sprite-s3img3 {
+  width: 141px;
+  height: 87px;
+  background-position: -529px -102px;
+}
+
+.sprite-s3img4 {
+  width: 141px;
+  height: 87px;
+  background-position: -680px -102px;
+}
+
+.sprite-s4-bg1 {
+  width: 386px;
+  height: 471px;
+  background-position: -5px -199px;
+}
+
+.sprite-s4-bottle {
+  width: 369px;
+  height: 493px;
+  background-position: -401px -199px;
+}
+
+.sprite-s4-icon1 {
+  width: 40px;
+  height: 53px;
+  background-position: -973px -5px;
+  float: left;
+  display: inline-block;
+}
+
+.sprite-s4-icon2 {
+  width: 70px;
+  height: 61px;
+  background-position: -831px -102px;
+  float: left;
+  display: inline-block;
+}
+
+.sprite-s4-icon3 {
+  width: 43px;
+  height: 43px;
+  background-position: -973px -68px;
+  float: left;
+  display: inline-block;
+  margin: 7px 5px 0 0;
+}
+
+.sprite-s4-icon4 {
+  width: 115px;
+  height: 104px;
+  background-position: -911px -121px;
+  float: left;
+  display: inline-block;
+  margin: 5px 15px 0 0px;
+}
+
+.sprite-s4-icon5 {
+  width: 115px;
+  height: 104px;
+  background-position: -780px -235px;
+  float: left;
+  display: inline-block;
+  margin: 5px 15px 0 0px;
+}
+
+.sprite-s4-icon6 {
+  width: 115px;
+  height: 104px;
+  background-position: -905px -235px;
+  float: left;
+  display: inline-block;
+  margin: 5px 15px 0 0px;
+}
+
+.sprite-s5-line {
+  width: 869px;
+  height: 16px;
+  background-position: -5px -702px;
+}
+
+.sprite-s5-logos {
+  width: 484px;
+  height: 334px;
+  background-position: -1036px -5px;
+}
+
+.sprite-s5hd {
+  width: 944px;
+  height: 16px;
+  background-position: -5px -728px;
+}
+
+.sprite-s7-bottle {
+  width: 343px;
+  height: 484px;
+  background-position: -959px -349px;
+}
+
+.sprite-s7-photos {
+  width: 378px;
+  height: 285px;
+  background-position: -5px -843px;
+}
+
+.sprite5 {
+  background-image: url(../sprites/spritesheet5.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite5.sprite5-false {
+  background-image: url(../sprites/spritesheet5.png) !important;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: -4px -606px !important;
+}
+
+.sprite-select {
+  width: 648px;
+  height: 260px;
+  background-position: -5px -5px;
+}
+
+.sprite-select-arrow {
+  width: 9px;
+  height: 7px;
+  background-position: -663px -5px;
+}
+
+.sprite-select-btn {
+  width: 214px;
+  height: 51px;
+  background-position: -682px -5px;
+}
+
+.sprite-selected {
+  width: 648px;
+  height: 260px;
+  background-position: -906px -5px;
+}
+
+.sprite-selected-btn {
+  width: 214px;
+  height: 51px;
+  background-position: -1564px -5px;
+}
+
+.sprite-ship {
+  width: 21px;
+  height: 26px;
+  background-position: -1788px -5px;
+}
+
+.sprite-shop {
+  width: 305px;
+  height: 210px;
+  background-position: -1564px -66px;
+}
+
+.sprite-smry-icon {
+  width: 26px;
+  height: 33px;
+  background-position: -1819px -5px;
+}
+
+.sprite-smryimg {
+  width: 400px;
+  height: 52px;
+  background-position: -5px -286px;
+}
+
+.sprite-stars {
+  width: 102px;
+  height: 17px;
+  background-position: -1855px -5px;
+}
+
+.sprite-steps-img {
+  width: 329px;
+  height: 48px;
+  background-position: -415px -286px;
+}
+
+.sprite-strip {
+  /*width: 2000px;*/
+  /*height: 100px;*/
+  background-position: -5px -348px;
+}
+
+.sprite-submit {
+  width: 280px;
+  height: 67px;
+  border-radius: 4px;
+  background-position: -5px -458px;
+}
+
+.sprite-submit.sprite-submit-unauthentic {
+  background-position: -5px -458px;
+}
+
+.sprite-submit.sprite-submit-authentic {
+  background-position: -4px -687px;
+}
+
+.sprite-t-box {
+  width: 506px;
+  height: 532px;
+  background-position: -295px -458px;
+}
+
+.sprite-t-img1 {
+  width: 171px;
+  height: 171px;
+  background-position: -811px -458px;
+}
+
+.sprite-t-img2 {
+  width: 171px;
+  height: 171px;
+  background-position: -992px -458px;
+}
+
+.sprite-th-pro {
+  width: 176px;
+  height: 222px;
+  background-position: -1173px -458px;
+}
+
+.sprite-up-btl {
+  width: 176px;
+  height: 222px;
+  background-position: -1359px -458px;
+}
+
+.sprite-up-product {
+  width: 222px;
+  height: 428px;
+  background-position: -1545px -458px;
+}
+
+.sprite-up-product2 {
+  width: 222px;
+  height: 428px;
+  background-position: -1777px -458px;
+}
+
+.sprite-vdo-arw {
+  width: 113px;
+  height: 174px;
+  background-position: -1879px -32px;
+}
+
+.sprite-box {
+  background-image: url(../sprites/spritesheet-box.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-box1 {
+  width: 289px;
+  height: 386px;
+  background-position: -5px -5px;
+}
+
+.sprite-box2 {
+  width: 289px;
+  height: 386px;
+  background-position: -304px -5px;
+}
+
+.sprite-box3 {
+  width: 289px;
+  height: 386px;
+  background-position: -5px -401px;
+}
+
+.sprite-box4 {
+  width: 289px;
+  height: 386px;
+  background-position: -304px -401px;
+}
+
+.sprite-box5 {
+  width: 289px;
+  height: 386px;
+  background-position: -603px -5px;
+}
+
+.sprite-box6 {
+  width: 289px;
+  height: 386px;
+  background-position: -603px -401px;
+}

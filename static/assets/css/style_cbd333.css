@@ -1,0 +1,912 @@
+@charset "utf-8";
+/* CSS Document @font-face {font-family: '';src: url(../fonts/.ttf);}*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700");
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: left !important;
+}
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.container {
+  max-width: 830px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.logosec {
+  padding-top: 15px;
+}
+#top-section {
+}
+.callsec {
+  text-align: right;
+  align-self: center;
+}
+.callsec a {
+  color: #808080;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+a.toggle {
+  margin-left: 10px;
+}
+.relieve-stress-sec {
+  background: url(/assets/images//top-banner-bg.png) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+.relieve-stress-sec h2 {
+  font-weight: 400;
+  font-size: 39px;
+  padding: 40px 20px;
+}
+.relieve-stress-sec h2 strong {
+  font-weight: 800;
+}
+.healing-powersec {
+  padding-top: 50px;
+}
+.healing-powersec h3 {
+  color: #1e1f20;
+  font-size: 22px;
+}
+.healing-powersec h3 strong {
+  color: #1e1f20;
+  font-size: 160%;
+}
+.healing-powersec h2,
+.choosesec h3 {
+  font-weight: 800;
+  font-size: 35px;
+  background: -webkit-linear-gradient(top, #008702, #024903);
+  background: linear-gradient(top, #008702, #024903);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 15px;
+}
+.old-couplesec,
+.cbd-hempsec {
+  text-align: left;
+  padding-top: 25px;
+}
+.old-couplesec p {
+  font-weight: 300;
+}
+.old-couplesec .col-md-5 img {
+  position: absolute;
+  max-width: 430px;
+  left: -70px;
+}
+.cbd-hempsec .col-md-5 img {
+  margin-top: -133px;
+  float: right;
+}
+.cbd-hempsec h3 {
+  padding-bottom: 25px;
+}
+.cbd-hempsec ul,
+.introducing-american ul {
+  padding-left: 0;
+  padding-top: 20px;
+}
+.cbd-hempsec ul li,
+.introducing-american ul li {
+  background: url(/assets/images//li-icon.png) no-repeat;
+  list-style: none;
+  padding-left: 40px;
+  padding-bottom: 8px;
+  background-position: 0px 0px;
+  font-size: 18px;
+  background-size: 35px;
+}
+.introducing-american {
+  padding-top: 25px;
+  text-align: center;
+}
+.introducing-american h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #df0202;
+  font-size: 55px;
+  padding-bottom: 30px;
+}
+
+.intro_2 h2 {
+  font-weight: 800;
+  font-size: 35px;
+  background: -webkit-linear-gradient(top, #008702, #024903);
+  background: linear-gradient(top, #008702, #024903);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: none;
+}
+
+.introdu-video-sec {
+  background: url(/assets/images//video-bg.jpg) no-repeat;
+  padding-top: 50px;
+}
+.introducing-american .col-md-6,
+.introducing-american p {
+  text-align: left;
+}
+.introducing-american .col-md-6 {
+  padding-top: 15px;
+}
+.introducing-american h3 {
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 7px;
+  text-align: left;
+}
+.introducing-american ul {
+  padding-top: 0px;
+}
+.video-ifram .video {
+  border: #c7c7c7 8px solid;
+}
+img.videoifram-logo {
+  padding-top: 10px;
+}
+.arrow-video {
+  padding-top: 30px;
+}
+.choosesec {
+  padding-top: 60px;
+}
+.choosesec p,
+.choosesec h3 {
+  text-align: center;
+}
+.thc-free-states {
+}
+.thc-free-50us {
+  background: #f5f5f2;
+  border: #dbdbdb 1px solid;
+  padding: 20px 0px 20px 20px;
+}
+.thc-free-50us h5 {
+  background: -webkit-linear-gradient(top, #008702, #024903);
+  background: linear-gradient(top, #008702, #024903);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  max-width: 82%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.thc-free-50us h6 {
+  background: -webkit-linear-gradient(top, #008702, #024903);
+  background: linear-gradient(top, #008702, #024903);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 82%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+.thc-free-50us p {
+}
+.benefits-hemp-oil {
+}
+.benefits-hemp-oil h2 {
+  background: -webkit-linear-gradient(top, #008702, #024903);
+  background: linear-gradient(top, #008702, #024903);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 37px;
+  font-weight: 700;
+}
+.benefits-hemp-oil h2 u {
+  -webkit-text-fill-color: #007602;
+}
+.benefits-hemp-oil h4 {
+  font-weight: 700;
+}
+.benefits-text h3 {
+  font-size: 22px;
+  color: #007202;
+  font-weight: 600;
+}
+.benefits-text p {
+  font-size: 16px;
+}
+.cognitive-function {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.jacobson-text {
+  padding-top: 25px;
+}
+.dr-tites {
+  padding-top: 40px;
+}
+.testimonial-sec {
+  padding-top: 50px;
+}
+.testimonial-per {
+  background: #f5f5f5;
+  border: #dbdbdb 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+.namesec {
+  display: inline-block;
+  width: 100%;
+}
+.namesec .dp-testmo {
+  float: left;
+}
+.namesec .dp-depc {
+  float: left;
+  padding-left: 15px;
+}
+.dp-depc img {
+  max-width: 115px;
+}
+.namesec h4 {
+  padding-top: 5px;
+  color: #007e02;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.namesec p {
+  font-size: 17px;
+}
+.testimonial-per:before {
+  background: url(/assets/images//textmonial-icon.png) no-repeat;
+  content: "";
+  display: table;
+  width: 70px;
+  height: 55px;
+  background-size: contain;
+  margin-top: -45px;
+  margin-bottom: 10px;
+}
+.money-gars {
+  padding-top: 25px;
+}
+.downarrow {
+  padding-top: 20px;
+}
+.downarrow img {
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 1s infinite;
+  position: relative;
+}
+.save-below {
+  padding-top: 25px;
+}
+.save-below h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #df0202;
+  font-size: 55px;
+  padding-bottom: 30px;
+}
+
+.cart-per {
+  border: #007a03 3px solid;
+  margin-bottom: 15px;
+  text-align: left;
+  padding: 0px;
+  color: #fff;
+}
+.cart-per .title-sec {
+  background: #007a03;
+  display: inline-table;
+  width: 100%;
+}
+.cart-per .title-sec h4 {
+  font-size: 18px;
+  float: left;
+  padding: 9px 10px;
+  margin-bottom: 0px;
+}
+.free-shipsec {
+  float: right;
+  background: #034004;
+  width: 210px;
+}
+.free-shipsec h4 {
+}
+.free-shipsec:before {
+  content: "";
+  background: url(/assets/images//free-ship-bg.jpg) no-repeat;
+  width: 30px;
+  height: 51px;
+  display: inline-table;
+  background-size: cover;
+  float: left;
+}
+.five-bott-active {
+  margin-top: -7px;
+}
+.footer-sec {
+  background: #f6f6f6;
+  padding: 40px 0;
+}
+.footer-sec p {
+  font-size: 12px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.footer-sec a {
+  font-size: 12px;
+  color: #000;
+  padding: 0px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.rush-btn:hover {
+  opacity: 0.7;
+}
+
+.hemp-oil-benefit {
+  background: rgba(255, 235, 0, 0.12);
+  padding: 20px;
+  width: 88%;
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+.hemp-oil-benefit ul {
+  margin-bottom: 0px;
+  float: left;
+  padding-left: 0px;
+  width: 50%;
+}
+.hemp-oil-benefit ul li {
+  background: url(/assets/images//li-icon.png) no-repeat;
+  list-style: none;
+  padding-left: 40px;
+  padding-bottom: 8px;
+  background-position: 0px 0px;
+  font-size: 18px;
+  background-size: 35px;
+}
+.hemp-oil-benefit p {
+  padding-bottom: 10px;
+}
+.cbd-justis {
+  background: #f7f7f7;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.cbd-justis h2 {
+  padding-bottom: 20px;
+}
+.cbd-justis ul {
+  padding-left: 0px;
+  float: left;
+  width: 50%;
+}
+.cbd-justis ul li {
+  background: url(/assets/images//li-icon.png) no-repeat;
+  list-style: none;
+  padding-left: 40px;
+  padding-bottom: 8px;
+  background-position: 0px 0px;
+  font-size: 18px;
+  background-size: 35px;
+}
+.cbd-justis h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.cbd-justis h2 {
+  font-weight: 800;
+  font-size: 35px;
+  background: -webkit-linear-gradient(top, #008702, #024903);
+  background: linear-gradient(top, #008702, #024903);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 15px;
+}
+.mob-img,
+div#stky-btn {
+  display: none;
+}
+.dok-img {
+  display: block;
+}
+.cbd-hempsec .col-md-5 {
+  display: block;
+}
+/*siba*/
+.radio_btns .get_select {
+  display: none;
+}
+.radio_btns label {
+  margin: 0;
+  display: block;
+  cursor: pointer;
+}
+.radio_btns input[type="radio"] {
+  display: none;
+}
+.radio_btns input[type="radio"]:checked + label .get_select {
+  display: block;
+}
+.radio_btns input[type="radio"]:checked + label .not_select {
+  display: none;
+}
+/*siba*/
+
+/*Checkout Start*/
+.checkout-to-section {
+  background: url(/assets/images//checkout-top-bar-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  padding: 15px 0;
+}
+.callsec h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.checkout-body-sec {
+  padding-top: 20px;
+}
+.row > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.font_150_p {
+  font-size: 150%;
+}
+.color_yellow {
+  color: #ff0;
+}
+.banner_2 {
+  background: #283c91;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+.clor_white {
+  color: #fff;
+}
+.hed_alt_1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.hed_alt_2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 1.2;
+}
+.hed_alt_3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.box_yellow {
+  background: rgba(255, 235, 0, 0.12);
+  padding: 20px;
+  display: table;
+  width: 100%;
+  text-align: left;
+}
+.box_yellow h3 {
+  font-weight: bold;
+}
+.font_36 {
+  font-size: 36px !important;
+}
+.font_300 {
+  font-weight: 300;
+}
+.font_400 {
+  font-weight: 400;
+}
+.font_500 {
+  font-weight: 500;
+}
+.font_bold,
+.font_700 {
+  font-weight: bold;
+}
+.font_600 {
+  font-weight: 600;
+}
+.font_700 {
+  font-weight: 700;
+}
+.font_800 {
+  font-weight: 800;
+}
+.font_900 {
+  font-weight: 900;
+}
+/*Checkout End*/
+.box_yellow img {
+  display: none;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+@keyframes mymove {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 8px;
+  }
+}
+/*Animated Button css*/
+/*Second button*/
+
+/*--
+.anim_btn{animation: swing_1 3s;background:#00f;display:table;color:#fff;padding:4px 10px;text-decoration:none;animation-iteration-count:infinite;}
+--*/
+@-webkit-keyframes swing_1 {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 8deg);
+    transform: rotate3d(0, 0, 1, 8deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -6deg);
+    transform: rotate3d(0, 0, 1, -6deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 4deg);
+    transform: rotate3d(0, 0, 1, 4deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -4deg);
+    transform: rotate3d(0, 0, 1, -4deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+@keyframes swing_1 {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 8deg);
+    transform: rotate3d(0, 0, 1, 8deg);
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -6deg);
+    transform: rotate3d(0, 0, 1, -6deg);
+  }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 4deg);
+    transform: rotate3d(0, 0, 1, 4deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -4deg);
+    transform: rotate3d(0, 0, 1, -4deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .desk_text_right {
+    text-align: right;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .relieve-stress-sec h2,
+  .healing-powersec h2,
+  .choosesec h3,
+  .introducing-american h2,
+  .benefits-hemp-oil h2,
+  .save-below h3 {
+    font-size: 30px;
+  }
+  .healing-powersec h3,
+  .introducing-american h3,
+  .thc-free-50us h6 {
+    font-size: 25px;
+  }
+  .cbd-hempsec ul li,
+  .introducing-american ul li,
+  p {
+    font-size: 16px;
+  }
+  .cart-per .title-sec h4 {
+    font-size: 16px;
+    max-width: 72%;
+  }
+  .benefits-text p {
+    font-size: 15px;
+  }
+  .dr-tites {
+    padding-top: 20px;
+  }
+  .jacobson-text {
+    padding-bottom: 0px;
+  }
+  .footer-sec a,
+  .footer-sec p {
+    font-size: 12px;
+  }
+  .downarrow img {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+  .hemp-oil-benefit ul li,
+  .cbd-justis ul li {
+    font-size: 16px;
+  }
+  .cbd-justis h3 {
+    font-size: 18px;
+  }
+  .cbd-justis h2 {
+    font-size: 25px;
+  }
+  .thc-free-50us h5 {
+    font-size: 20px;
+  }
+  .logo img {
+    margin: auto;
+    display: table;
+  }
+  a.toggle img {
+    max-width: 35px;
+  }
+  .mob-img {
+    display: block;
+  }
+  .dok-img {
+    display: none;
+  }
+  .callsec {
+    text-align: center;
+    padding-top: 5px;
+  }
+  .relieve-stress-sec h2 {
+    font-size: 25px;
+    padding: 30px 20px;
+  }
+  .healing-powersec h3 {
+    font-size: 22px;
+  }
+  .healing-powersec h2,
+  .choosesec h3 {
+    font-size: 25px;
+    padding-top: 5px;
+  }
+  .healing-powersec {
+    padding-top: 30px;
+  }
+  .old-couplesec .col-md-5,
+  .arrow-video,
+  .cognitive-function .col-md-7 img {
+    display: none;
+  }
+  .cbd-hempsec .col-md-5 img {
+    margin-top: 0px;
+    float: none;
+    max-width: 200px;
+    display: table;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .introducing-american h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  .introducing-american h3 {
+    font-size: 20px;
+  }
+  .cbd-hempsec ul li,
+  .introducing-american ul li {
+    font-size: 16px;
+  }
+  .choosesec {
+    padding-top: 25px;
+  }
+  .cart-per .title-sec h4 {
+    font-size: 13px;
+    max-width: 55%;
+  }
+  .free-shipsec h4 {
+    max-width: 100% !important;
+  }
+  .free-shipsec {
+    max-width: 40%;
+  }
+  .thc-free-50us h6 {
+    font-size: 20px;
+    max-width: 100%;
+  }
+  .thc-free-50us {
+    padding: 20px 0px 0px 0px;
+  }
+  .benefits-hemp-oil h2,
+  .save-below h3 {
+    font-size: 25px;
+  }
+  .callsec a {
+    font-size: 21px;
+  }
+  .benefits-hemp-oil h4 {
+    font-size: 20px;
+  }
+  .cognitive-function {
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  .benefits-text {
+    padding-top: 20px;
+  }
+  .benefits-text h3 {
+    font-size: 18px;
+  }
+  .dr-tites {
+    padding-top: 0px;
+  }
+  .jacobson-text {
+    text-align: center;
+  }
+  .jacobson-text img {
+    max-width: 160px;
+    padding-bottom: 20px;
+  }
+  .testimonial-per {
+    margin-bottom: 40px;
+  }
+  .namesec p {
+    font-size: 15px;
+  }
+  .money-gars img {
+    max-width: 125px;
+    margin: auto;
+    display: table;
+    padding-bottom: 25px;
+  }
+  .downarrow img {
+    max-width: 100px;
+  }
+  .benefits-hemp-oil {
+    padding-top: 25px;
+  }
+  .footer-sec .col-md-6 {
+    text-align: center;
+  }
+  .cartsec {
+    padding-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .hed_alt_1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  .hed_alt_2 {
+    font-size: 38px;
+    line-height: 1.4;
+  }
+  .hed_alt_3 {
+    font-size: 25px;
+  }
+  .benefits-hemp-oil .step3-bottle-cbd {
+    max-width: 220px;
+    margin: auto;
+    display: table;
+    padding-top: 25px;
+  }
+  .introdu-video-sec {
+    padding-top: 0px;
+  }
+
+  div#stky-btn {
+    display: block;
+    width: 100%;
+    padding: 16px 0 22px 0;
+    background: #034004;
+    position: fixed;
+    bottom: 0%;
+    left: 0px;
+    z-index: 99999;
+    transition: bottom 1s;
+  }
+  div#button-64718 a {
+    width: 73%;
+  }
+  #button-64718 {
+    margin-top: 7px;
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+  }
+  div#button-64718 {
+    z-index: 99;
+  }
+  #button-64718 {
+    position: relative;
+    max-width: 260px;
+    margin: auto;
+    display: table;
+    position: relative;
+  }
+  .footer-sec {
+    padding-bottom: 105px;
+  }
+}
+@media screen and (min-device-width: 370px) and (max-device-width: 767px) {
+  .footer-wav-img {
+    margin-top: -33px;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  .hemp-oil-benefit ul,
+  .cbd-justis ul {
+    width: 100%;
+    margin: 0px;
+  }
+  .tessaa {
+    width: 59%;
+    float: left;
+  }
+  .tessaa h3 {
+    font-size: 21px !important;
+  }
+  .box_yellow img {
+    max-width: 41%;
+    display: block;
+  }
+  .cbd-hempsec .col-md-5 {
+    display: none;
+  }
+}
+@media screen and (max-device-width: 400px) {
+  .free-shipsec:before {
+    display: none;
+  }
+  p,
+  .cbd-hempsec ul li,
+  .introducing-american ul li {
+    font-size: 14px;
+  }
+  .introducing-american h3 {
+    font-size: 17px;
+  }
+  .introducing-american h2 {
+    font-size: 23px;
+  }
+  .logo img {
+    max-width: 180px;
+  }
+}

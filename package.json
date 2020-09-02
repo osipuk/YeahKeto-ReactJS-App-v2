@@ -1,0 +1,121 @@
+{
+  "name": "american-science-cbd-reactjs-app-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch server server --exec babel-node",
+    "build": "babel server -d dist && next build",
+    "start": "NODE_ENV=production node ./dist/index.js",
+    "generate-docs": "./node_modules/.bin/jsdoc react/* redux/* server/* helpers/* -r",
+    "postinstall": "yarn build",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "react/**/*.js": [
+      "prettier --write",
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "redux/**/*.js": [
+      "prettier --write",
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "pages/**/*.js": [
+      "prettier --write",
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "server/**/*.js": [
+      "prettier --write",
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "**/*.css": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Nishchit14@github.com/starlightgroup/American-Science-CBD-ReactJS-App-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starlightgroup/American-Science-CBD-ReactJS-App-v2/issues"
+  },
+  "homepage": "https://github.com/starlightgroup/American-Science-CBD-ReactJS-App-v2#readme",
+  "dependencies": {
+    "@babel/cli": "7.0.0-beta.44",
+    "@babel/core": "7.0.0-beta.44",
+    "@babel/polyfill": "7.0.0-beta.44",
+    "@babel/preset-env": "7.0.0-beta.44",
+    "@babel/preset-stage-0": "7.0.0-beta.44",
+    "autoprefixer": "8.3.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "8.1.0",
+    "babel-plugin-idx": "2.2.0",
+    "babel-plugin-module-resolver": "3.1.1",
+    "body-parser": "1.18.3",
+    "compression": "1.7.2",
+    "connect-redis": "3.3.3",
+    "cookie-parser": "1.4.3",
+    "credit-card-type": "^6.3.0",
+    "dotenv": "5.0.1",
+    "express": "4.16.3",
+    "express-jwt": "5.3.1",
+    "express-session": "1.15.6",
+    "express-useragent": "1.0.12",
+    "icepick": "2.3.0",
+    "idx": "2.3.0",
+    "ioredis": "3.2.2",
+    "jquery": "3.3.1",
+    "moment": "2.22.1",
+    "morgan": "1.9.0",
+    "next": "6.0.3",
+    "next-redux-saga": "3.0.0-beta.1",
+    "next-redux-wrapper": "2.0.0-beta.6",
+    "path": "^0.12.7",
+    "planner": "0.0.1",
+    "postcss-easy-import": "3.0.0",
+    "postcss-url": "7.3.2",
+    "range_check": "1.4.0",
+    "raven": "2.6.2",
+    "react": "16.3.2",
+    "react-collapsible": "^2.2.0",
+    "react-dom": "16.3.2",
+    "react-lazyload": "2.3.0",
+    "react-modal": "3.4.4",
+    "react-redux": "5.0.7",
+    "react-slick": "0.23.1",
+    "redux": "4.0.0",
+    "redux-actions": "2.3.0",
+    "redux-form": "7.3.0",
+    "redux-saga": "0.16.0",
+    "strict-rate-limiter": "0.2.0",
+    "uglifyjs-webpack-plugin": "1.2.5",
+    "validator": "^10.0.0",
+    "winston": "2.4.2",
+    "xss": "0.3.8",
+    "yarn": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/node": "7.0.0-beta.44",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-import-resolver-babel-module": "5.0.0-beta.0",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "husky": "0.14.3",
+    "jsdoc": "3.5.5",
+    "lint-staged": "7.0.4",
+    "nodemon": "1.17.3",
+    "prettier": "1.12.1",
+    "redux-devtools-extension": "2.13.2"
+  }
+}
